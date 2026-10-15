@@ -8,87 +8,71 @@
 </p>
 
 <p align="center">
-  物自体开源的营销判断力评测集合。<br>
-  本页是索引。每一份评测单独成册。
+  物自体开源的营销判断力评测。<br>
+  第一份已经公开：<a href="benchmarks/cmo-bench/README.md"><strong>CMO Bench</strong></a>。
 </p>
 
 <p align="center">
   <a href="https://github.com/Noumena-Marketing-AI/noumena-evaluation/stargazers"><img src="https://img.shields.io/github/stars/Noumena-Marketing-AI/noumena-evaluation?style=flat-square&color=A68456" alt="GitHub Stars"></a>
-  <img src="https://img.shields.io/badge/已公开-1-16130F?style=flat-square" alt="已公开 1 份评测">
+  <a href="mailto:hello@noumena.com.cn"><img src="https://img.shields.io/badge/合作-hello@noumena.com.cn-3E5C4A?style=flat-square" alt="合作邮箱"></a>
 </p>
 
 <p align="center">
   <a href="#物自体">物自体</a>
   &nbsp;·&nbsp;
-  <a href="#这个集合">这个集合</a>
+  <a href="#cmo-bench">CMO Bench</a>
   &nbsp;·&nbsp;
-  <a href="#评测索引">评测索引</a>
+  <a href="#即将公开">即将公开</a>
   &nbsp;·&nbsp;
-  <a href="#目录约定">目录约定</a>
+  <a href="#合作">合作</a>
 </p>
 
-![Noumena Evaluation：营销判断力的开源评测集合。本页是索引。](assets/readme/frontispiece.png)
+![Noumena Evaluation：营销判断力的开源评测。第一份已经公开，CMO Bench。](assets/readme/frontispiece.png)
 
 <a id="物自体"></a>
 
 ## 物自体
 
-物自体科技（Noumena）成立于 2023 年，聚焦增长智能（Growth Intelligence），构建面向营销决策与执行的 AI Agent。团队由 AI 研究、算法工程和一线营销业务人员共同组成，长期待在品牌的真实业务里，把洞察、内容、达人合作、投放和复盘中的经验，沉淀成可学习、可进化的增长系统。
+物自体科技（Noumena）成立于 2023 年，做增长智能（Growth Intelligence）。我们构建面向营销决策与执行的 AI Agent。团队里有 AI 研究、算法工程，也有仍在一线做营销的人。洞察、内容、达人、投放和复盘里那些很难写进公开教材的判断，是我们每天在碰的东西。
 
-公开邮箱：[hello@noumena.com.cn](mailto:hello@noumena.com.cn)
+Noumena Evaluation 是我们把这些判断做成考卷、公开出来的地方。不考模型记住了多少营销知识，考它能不能在预算、时间和品牌约束下把一件真实的工作做完，并且做对该做的取舍。
 
-<a id="这个集合"></a>
+<a id="cmo-bench"></a>
 
-## 这个集合
-
-Noumena Evaluation 用来公开营销判断力评测。它不是某一份榜单的主页。
-
-每份评测回答自己的问题，带自己的题库、判据和结果。根 README 只说明这是谁、现在有哪些册、到哪里读详情。方法、总榜、案例和共创方式，都写在该评测自己的材料里。
-
-新评测加入时，本页增加一张简介。已经公开的评测，不在这里改写。
-
-<a id="评测索引"></a>
-
-## 评测索引
-
-| 编号 | 评测 | 问的问题 | 详情 |
-| --- | --- | --- | --- |
-| 01 | [CMO Bench](benchmarks/cmo-bench/README.md) | 模型能不能按 CMO 级专家的标准做营销判断 | [中文](benchmarks/cmo-bench/README.md) · [English](benchmarks/cmo-bench/README_EN.md) |
-
-### 01 · CMO Bench
+## 第一份：CMO Bench
 
 <a href="benchmarks/cmo-bench/README.md">
-  <img src="assets/readme/catalog-cmo.jpg" width="100%" alt="CMO Bench 简介：执行近满分，拍板只对一半。专家达标率 41.1%，56 道真实任务，最强模型全程 446 元。">
+  <img src="assets/readme/catalog-cmo.jpg" width="100%" alt="CMO Bench：执行近满分，拍板只对一半。专家达标率 41.1%，56 道真实任务，最强模型全程 446 元。">
 </a>
 
-物自体科技与香港科技大学宋阳秋教授课题组联合完成。它是这个集合的第一份评测，以从业十年以上的 CMO 级专家亲手写下的判据为满分。题目来自头部品牌的真实业务，经脱敏改编。
+如果你已经看过那篇结果，这里是更完整的一册。
 
-首期可以先记住一句：执行近满分，拍板只对一半。
+CMO Bench 由物自体科技与香港科技大学宋阳秋教授课题组联合完成。题目来自我们服务头部品牌的真实业务，经脱敏改编。判分的人是从业十年以上、操盘过亿元预算的营销专家：他们先自己做完，再把每一次取舍写成标准。五个国产模型在同一套隔离环境里，端到端做完 56 道任务。
+
+全文里有三件公众号放不下的东西：考卷是怎么出的，执行和判断之间那 30 到 49 分的落差，以及两个案例里高分和低分到底差在哪一步。
 
 [阅读 CMO Bench](benchmarks/cmo-bench/README.md) · [English](benchmarks/cmo-bench/README_EN.md) · [榜单页](https://solution.alphacat.pro/cmo-bench-hkust)
 
-<a id="目录约定"></a>
+<a id="即将公开"></a>
 
-## 目录约定
+## 即将公开
 
-```text
-README.md                          集合索引，中文默认
-README_EN.md                       集合索引，英文
-benchmarks/<bench>/README.md       该评测的中文详情
-benchmarks/<bench>/README_EN.md    该评测的英文详情
-benchmarks/<bench>/assets/         只服务这一册
-```
+**一部分题目。** 首期结果已经公开。接下来会放出一部分原题，让你看到委托怎么写、材料长什么样、最后要交什么。用来判断这套考卷跟你的业务像不像。判分标准和完整题库仍留在评测里，不随这一批一起公开。
 
-加一份评测：新建 `benchmarks/<bench>/`，再在上面的索引里加一张简介。不要把新评测的方法、榜单和案例写进根 README。
+**更多评测。** 营销判断不止一种考法。新的评测会在这里继续公布，每一份都有自己的问题和结果。
 
-## 联系
+想在题目公开时收到通知，写到 [hello@noumena.com.cn](mailto:hello@noumena.com.cn)，标题注明「CMO-Bench 题库」。
 
-写到 [hello@noumena.com.cn](mailto:hello@noumena.com.cn)。标题注明评测名称和你的身份。怎么参与，以该评测详情里的共创说明为准。
+<a id="合作"></a>
 
-## 引用
+## 怎么一起做
 
-```text
-Noumena. Noumena Evaluation.
-2026.
-https://github.com/Noumena-Marketing-AI/noumena-evaluation
-```
+三类合作，按季度更新这一把尺子。
+
+**提交模型参评。** 来信说明你是谁、模型名称，以及一个我们可以调用的接口。下一轮用同一套题、同一种评测方式重跑。排名是否出现在公开榜单上，由你决定。
+
+**专家出题。** 如果你做过要承担预算后果的营销判断，可以出题，并写下你认为该怎么判。被采纳的题目会在榜单页署名。
+
+**联合研究。** 围绕营销判断怎么测、怎么学，和我们一起做研究。CMO Bench 的联合研究团队是物自体科技与香港科技大学 KnowComp。
+
+来信 [hello@noumena.com.cn](mailto:hello@noumena.com.cn)。标题写上评测名称和你的身份，例如「CMO-Bench 参评」。CMO Bench 的参与方式也写在[全文末尾](benchmarks/cmo-bench/README.md#合作)。

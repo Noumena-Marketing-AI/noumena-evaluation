@@ -10,7 +10,7 @@
 
 <p align="center">
   A marketing-judgment benchmark scored against a CMO-level expert.<br>
-  The first volume of Noumena Evaluation. Method, results, and cases live only here.
+  The longer account: method, results, and cases. A public slice of the tasks is coming.
 </p>
 
 <p align="center">
@@ -29,7 +29,9 @@
   &nbsp;·&nbsp;
   <a href="#two-cases">Cases</a>
   &nbsp;·&nbsp;
-  <a href="#join">Join</a>
+  <a href="#coming-soon">Coming soon</a>
+  &nbsp;·&nbsp;
+  <a href="#work-with-us">Work with us</a>
 </p>
 
 ![CMO Bench: nearly perfect at execution, only half right at the call. Expert adoption 41.1%. 56 real tasks. The leading model spent ¥446.](assets/poster-en.jpg)
@@ -158,36 +160,42 @@ The low score is 45.8. The model excluded people with one or two hard rules, the
 
 **Anyone can apply a hard rule. An expert still produces a reasoned list when the evidence is incomplete.**
 
-<a id="join"></a>
+<a id="coming-soon"></a>
 
-## Help set the ruler
+## Coming soon: a public slice of the tasks
 
-CMO Bench updates quarterly. Three kinds of partners:
+The results above are the first release. Next we will publish a portion of the original tasks.
 
-| Who | What you can do |
-| --- | --- |
-| Marketing experts | Set tasks, and write the criteria. Adopted tasks are credited on the board. |
-| Model labs | Submit an endpoint. You decide whether the rank is public. |
-| Researchers | Joint work on marketing judgment. |
+You will be able to see what a real piece of marketing work looks like once it has been turned into an exam: one brief, a set of materials, and a deliverable that would have to enter a live workflow. Enough to tell whether this exam resembles your own work. The scoring criteria, and the tasks not included in this slice, stay inside the evaluation.
 
-Write to [hello@noumena.com.cn](mailto:hello@noumena.com.cn). Put “CMO-Bench” and your role in the subject.
+When the slice is public, it will appear on this page. To be told when that happens, write to [hello@noumena.com.cn](mailto:hello@noumena.com.cn) with the subject “CMO-Bench tasks”.
 
-## The team for this volume
+<a id="work-with-us"></a>
 
-**Noumena** draws the tasks out of real engagements, organizes senior marketers to answer them and write the criteria, and runs the model trials and the item-level review.
+## Submit a model
 
-**KnowComp (Knowledge Computing) at HKUST**, led by Professor Yangqiu Song, works on knowledge graphs, knowledge representation and reasoning, natural language processing, and machine learning. The group is exploring a path from foundation knowledge graphs to foundation knowledge models, and, as agents begin to act, on trustworthy AI and behavioral compliance: rules an agent can reason over and an auditor can check. From “Trust Me” toward “Verify Me”.
+CMO Bench is updated quarterly. If you want a model in the next round:
 
-## What this volume contains
+1. Write and tell us the organization, a contact, and the model’s name.
+2. Give us an endpoint we can call. You do not hand the model over.
+3. Say whether you want the rank on the public board. A private result, returned only to you, is also fine.
 
-What is public now is the question, the method, and the first results. Tasks, criteria, and the evaluation tools will follow. The license will be set with the benchmark package.
+The next round uses the same tasks and the same method: end-to-end delivery in an isolated setting, then two judges scoring each expert criterion.
 
-Back to the collection: [Noumena Evaluation](../../README_EN.md)
+Write to [hello@noumena.com.cn](mailto:hello@noumena.com.cn) with the subject “CMO-Bench evaluation”.
 
-## Citation
+## Work with us
 
-```text
-Noumena & HKUST KnowComp. CMO Bench.
-Noumena Evaluation, 2026.
-https://github.com/Noumena-Marketing-AI/noumena-evaluation/tree/main/benchmarks/cmo-bench
-```
+Two other ways to help set the ruler.
+
+**Write a task.** Turn a real tradeoff into a question, and write down how you would grade it. Adopted tasks are credited on the board. We are not looking for a quiz with a single correct answer. We are looking for a piece of work that experts would disagree about after it is finished.
+
+**Do the research.** How marketing judgment can be measured, where it fails, and how it can be learned. Labs and model teams are welcome. Use the subject “CMO-Bench research”.
+
+## The research team
+
+**Noumena** draws the tasks out of real engagements, organizes senior marketers to answer them and write the criteria, and runs the trials and the item-level review.
+
+**KnowComp at HKUST**, led by Professor Yangqiu Song, works on knowledge graphs, knowledge representation and reasoning, natural language processing, and machine learning. The group is exploring a path from foundation knowledge graphs to foundation knowledge models, and how rules can become constraints an agent can reason over and an auditor can check.
+
+Other benchmarks from Noumena: [Noumena Evaluation](../../README_EN.md).

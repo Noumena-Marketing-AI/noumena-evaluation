@@ -8,87 +8,71 @@
 </p>
 
 <p align="center">
-  Noumena’s open collection of benchmarks for marketing judgment.<br>
-  This page is the index. Each benchmark is its own volume.
+  Open benchmarks for marketing judgment, from Noumena.<br>
+  First published: <a href="benchmarks/cmo-bench/README_EN.md"><strong>CMO Bench</strong></a>.
 </p>
 
 <p align="center">
   <a href="https://github.com/Noumena-Marketing-AI/noumena-evaluation/stargazers"><img src="https://img.shields.io/github/stars/Noumena-Marketing-AI/noumena-evaluation?style=flat-square&color=A68456" alt="GitHub Stars"></a>
-  <img src="https://img.shields.io/badge/Published-1-16130F?style=flat-square" alt="1 benchmark published">
+  <a href="mailto:hello@noumena.com.cn"><img src="https://img.shields.io/badge/Contact-hello@noumena.com.cn-3E5C4A?style=flat-square" alt="Contact"></a>
 </p>
 
 <p align="center">
   <a href="#noumena">Noumena</a>
   &nbsp;·&nbsp;
-  <a href="#the-collection">The collection</a>
+  <a href="#cmo-bench">CMO Bench</a>
   &nbsp;·&nbsp;
-  <a href="#index">Index</a>
+  <a href="#coming-soon">Coming soon</a>
   &nbsp;·&nbsp;
-  <a href="#layout">Layout</a>
+  <a href="#work-with-us">Work with us</a>
 </p>
 
-![Noumena Evaluation. This page is the index. Each benchmark is its own volume.](assets/readme/frontispiece-en.png)
+![Noumena Evaluation. Open benchmarks for marketing judgment. First published: CMO Bench.](assets/readme/frontispiece-en.png)
 
 <a id="noumena"></a>
 
 ## Noumena
 
-Noumena was founded in 2023. It works on Growth Intelligence: agents for marketing decisions, and for the work that follows them. The team mixes AI research, engineering, and people who still do the marketing. The aim is to turn insight, content, creator work, media, and postmortems into a system that can learn.
+Noumena was founded in 2023. We work on Growth Intelligence: agents for marketing decisions, and for the work that follows them. The team mixes AI research, engineering, and people who still do the marketing. Insight, content, creators, media, and postmortems are where the judgments live that rarely make it into a textbook.
 
-Public mail: [hello@noumena.com.cn](mailto:hello@noumena.com.cn)
+Noumena Evaluation is where we turn those judgments into exams and publish them. The question is not how much marketing theory a model remembers. It is whether the model can finish a real piece of work, and make the tradeoffs, under budget, time, and brand constraints.
 
-<a id="the-collection"></a>
+<a id="cmo-bench"></a>
 
-## The collection
-
-Noumena Evaluation publishes benchmarks of marketing judgment. It is not the homepage of any one board.
-
-Each benchmark asks its own question, and keeps its own tasks, criteria, and results. This README says who the collection is, which volumes exist, and where to read them. Method, scores, cases, and how to join live in that benchmark’s own document.
-
-When a new benchmark is added, this page gains one brief. Published volumes are not rewritten here.
-
-<a id="index"></a>
-
-## Index
-
-| No. | Benchmark | The question | Volume |
-| --- | --- | --- | --- |
-| 01 | [CMO Bench](benchmarks/cmo-bench/README_EN.md) | Can a model judge marketing work to a CMO-level standard? | [English](benchmarks/cmo-bench/README_EN.md) · [中文](benchmarks/cmo-bench/README.md) |
-
-### 01 · CMO Bench
+## First published: CMO Bench
 
 <a href="benchmarks/cmo-bench/README_EN.md">
-  <img src="assets/readme/catalog-cmo-en.jpg" width="100%" alt="CMO Bench brief: nearly perfect at execution, only half right at the call. Expert adoption 41.1%. 56 real tasks. The leading model spent ¥446.">
+  <img src="assets/readme/catalog-cmo-en.jpg" width="100%" alt="CMO Bench: nearly perfect at execution, only half right at the call. Expert adoption 41.1%. 56 real tasks. The leading model spent ¥446.">
 </a>
 
-Built by Noumena with Professor Yangqiu Song’s KnowComp group at the Hong Kong University of Science and Technology. It is the first volume in this collection. A CMO-level expert, with more than ten years in the field, wrote the criteria by hand after doing the work. The tasks come from real engagements with leading brands, then desensitized and rewritten.
+If you have already seen the result, this is the longer account.
 
-One line from the first release: nearly perfect at execution, only half right at the call.
+CMO Bench was built by Noumena with Professor Yangqiu Song’s KnowComp group at the Hong Kong University of Science and Technology. The tasks come from real work for leading brands, then desensitized and rewritten. The people who scored them have more than ten years in the field, and have run hundred-million-yuan budgets. They finished the work themselves, then wrote each tradeoff down as a criterion. Five models completed all 56 tasks, end to end, in the same isolated setting.
+
+The full write-up has what a short announcement cannot hold: how the exam was set, the 30-to-49-point gap between finishing and judging, and two cases where the high score and the low score diverge at a single decision.
 
 [Read CMO Bench](benchmarks/cmo-bench/README_EN.md) · [中文](benchmarks/cmo-bench/README.md) · [Board](https://solution.alphacat.pro/cmo-bench-hkust)
 
-<a id="layout"></a>
+<a id="coming-soon"></a>
 
-## Layout
+## Coming soon
 
-```text
-README.md                          collection index, Chinese default
-README_EN.md                       collection index, English
-benchmarks/<bench>/README.md       that benchmark, in Chinese
-benchmarks/<bench>/README_EN.md    that benchmark, in English
-benchmarks/<bench>/assets/         images for that volume only
-```
+**A public slice of the exam.** The first results are already out. Next we will publish a portion of the original tasks, so you can see how a brief is written, what the materials look like, and what has to be handed over. Enough to tell whether this exam resembles your own work. The scoring criteria and the full task set stay with the evaluation. They will not ship with this first public slice.
 
-To add a benchmark, create `benchmarks/<bench>/`, then add one brief to the index above. Do not put the new method, board, or cases into the root README.
+**More benchmarks.** Marketing judgment is not one exam. New ones will be published here, each with its own question and its own results.
 
-## Contact
+To hear when the tasks are public, write to [hello@noumena.com.cn](mailto:hello@noumena.com.cn) with the subject “CMO-Bench tasks”.
 
-Write to [hello@noumena.com.cn](mailto:hello@noumena.com.cn). Name the benchmark and your role in the subject. How to join is stated in that volume.
+<a id="work-with-us"></a>
 
-## Citation
+## Work with us
 
-```text
-Noumena. Noumena Evaluation.
-2026.
-https://github.com/Noumena-Marketing-AI/noumena-evaluation
-```
+Three ways in. The ruler is updated quarterly.
+
+**Submit a model.** Tell us who you are, the model’s name, and an endpoint we can call. The next round runs the same tasks, in the same way. You decide whether the rank appears on the public board.
+
+**Set a question.** If you have made marketing judgments that had to live with a budget, you can write a task and the criteria you would grade it by. Adopted tasks are credited on the board.
+
+**Research together.** On how marketing judgment can be measured, and how it can be learned. The research team on CMO Bench is Noumena and HKUST KnowComp.
+
+Write to [hello@noumena.com.cn](mailto:hello@noumena.com.cn). Put the benchmark and your role in the subject, for example “CMO-Bench evaluation”. The same invitation is at the end of the [CMO Bench write-up](benchmarks/cmo-bench/README_EN.md#work-with-us).
